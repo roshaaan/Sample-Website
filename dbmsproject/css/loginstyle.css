@@ -1,0 +1,195 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background:url(../autumn.jpg);	
+	background-size: cover;
+	overflow: hidden;
+}
+.container{
+	top:0px;
+	width:100%;
+	height:100%;
+	position:absolute;
+	left:0%;
+
+
+}
+.fallingLeaves {
+    text-align: center;
+}
+.fallingLeaves span {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+	margin: -280px 40px 54px  -34px;
+	background:url("../leaf.png");
+    
+    -webkit-animation: fallingLeaves 10s infinite  linear;
+    -moz-animation: fallingLeaves 10s infinite  linear;
+}
+.fallingLeaves span:nth-child(5n+5) {
+
+    -webkit-animation-delay: 1.3s;
+    -moz-animation-delay: 1.3s;
+}
+.fallingLeaves span:nth-child(3n+2) {
+
+    -webkit-animation-delay: 1.5s;
+    -moz-animation-delay: 1.5s;
+}
+.fallingLeaves span:nth-child(2n+5) {
+
+    -webkit-animation-delay: 1.7s;
+    -moz-animation-delay: 1.7s;
+}
+
+.fallingLeaves span:nth-child(3n+10) {
+
+    -webkit-animation-delay: 2.7s;
+    -moz-animation-delay: 2.7s;
+}
+.fallingLeaves span:nth-child(7n+2) {
+
+    -webkit-animation-delay: 3.5s;
+    -moz-animation-delay: 3.5s;
+}
+.fallingLeaves span:nth-child(4n+5) {
+
+    -webkit-animation-delay: 5.5s;
+    -moz-animation-delay: 5.5s;
+}
+.fallingLeaves span:nth-child(3n+7) {
+
+    -webkit-animation-delay: 8s;
+    -moz-animation-delay: 8s;
+}
+@-webkit-keyframes fallingLeaves {
+  0% {
+    opacity: 1;
+
+	-webkit-transform: translate(0, 0px) rotateZ(0deg);
+  }
+  75% {
+    opacity: 1;
+
+	-webkit-transform: translate(100px, 600px) rotateZ(270deg); 
+  }
+  100% {
+    opacity: 0;
+
+	-webkit-transform: translate(150px, 800px) rotateZ(360deg);
+  }
+}
+@-moz-keyframes fallingLeaves {
+  0% {
+    opacity: 1;
+    
+	-webkit-transform: translate(0, 0px) rotateZ(0deg);
+  }
+  75% {
+    opacity: 1;
+   
+	-webkit-transform: translate(100px, 600px) rotateZ(270deg); 
+  }
+  100% {
+    opacity: 0;
+    
+	-webkit-transform: translate(150px, 800px) rotateZ(360deg);
+  }
+}
+
+
+.login-box{
+	margin: auto;
+	width: 320px;
+	height: 420px;
+	background: rgba(0,0,0,0.5); 
+	color: #fff; 
+    top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+.login-box p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold; 
+}
+.login-box input
+{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.login-box input[type="text"], input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px; 
+	color: white;
+	font-size: 14px;
+}
+.login-box input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #1c8adb;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+.login-box input[type="submit"]:hover
+{
+	cursor:pointer;
+	background: #39dc79;
+	color: #0000;
+
+}
+.login-box a
+{
+	text-decoration: none;
+	font-size: 14px;
+	color: #fff;
+}
+.login-box a:hover
+{
+	color:  #39dc79;
+}
+.avatar
+{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	border-radius: 50%;
+	top: -50px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    left: calc(50% - 50px);
+}
+h1
+{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 40px;
+}
+.logo img{
+	float: left;
+	width: 200px;
+	height: auto;
+}
+.login-box i
+{
+	width: 26px;
+	float: left;
+	text-align: center;
+}
+

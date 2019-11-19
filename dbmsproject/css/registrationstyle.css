@@ -1,0 +1,66 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url(../black2.jpg);
+	background-size: cover;
+}
+h1{
+	color: white;
+	text-align: center;
+	font-family: sans-serif;
+	padding: 20px;
+}
+h2{
+	text-align: center;
+	padding: 20px;
+}
+.register{
+	background-image: url(../montains.jpg);
+	width: 500px;
+	margin: 0px 0px 0px 430px;
+	color: white;
+	font-size: 18px;
+	padding: 20px;
+	border-radius: 10px;
+}
+#register{
+	margin-left: 50px;
+}
+label{
+	color: white;
+	font-family: monospace;
+	font-size: 18px;
+}
+#name{
+	width: 300px;
+	border: none;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+}
+#ph{
+	width: 65px;
+	padding: 7px;
+	border: none;
+	border-radius: 3px;
+	outline: 0;
+}
+#num{
+	width: 230px;
+	padding: 7px;
+	border: none;
+	border-radius: 3px;
+	outline: 0;
+}
+#sub{
+	width: 200px;
+	padding: 7px;
+	font-size: 16px;
+	font-family: monospace;
+	font-weight: 600;
+	border: none;
+	border-radius: 3px;
+	outline: 0;
+}
